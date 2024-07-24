@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+     <link rel="stylesheet" href="styles.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/98a5108cc6.js" crossorigin="anonymous"></script>
+
+     <title>Rebequeen08</title>
+ </head>
+   
+ <body>
+    <nav class="nav">
+      <div id="toggle-menu" class="toggle-menu">
+        <i class="fa-solid fa-bars toggle-menu_icon"></i>
+      </div>
+
+          <ul id="main-menu" class="main-menu">
+             <li class="main-menu_item"type="none">
+                <a href="index.html" class="main-menu_link"> 
+                  <i class="fa-solid fa-house main-menu_icon"></i>Inicio</a></li>
+             <li class="main-menu_item" type="none">
+                <a href="#" class="main-menu_link"> 
+                  <i class="fa-solid fa-hand-holding-dollar main-menu_icon"></i>Apoya mi sueño</a></li>
+             <li class="main-menu_item" type="none">
+                <a href="galeria.html" class="main-menu_link"> 
+                  <i class="fa-solid fa-photo-film main-menu_icon"></i>Galeria de fotos</a></li>
+             <li class="main-menu_item" type="none">
+                <a href="#" class="main-menu_link"> 
+                  <i class="fa-solid fa-chess-board main-menu_icon"></i>Mis partidas</a></li>
+          </ul>
+
+        </nav>
+        <main class="main">
+
+        <h1>
+         Campeonato Nacional e Internacional "Chihuahua 2022"
+        </h1>
+
+        <div class="fullbox"id="full-img-box">
+          <img src="images/galeria/galeriafoto1.jpg" id="full-img">
+          <span onclick="closeImg()">x</span>
+        </div>
+        
+        <div class="main-galeria">
+           <div class="galeria-3">
+              <img class="fila1" src="images/galeria/galeriafoto1.jpg" onclick="openImg(this.src)" alt="foto1">
+               <!--agregar todos las fotos necesarias a partir de aqui-->
+           </div>
+           <div class="galeria-3">
+        <img class="fila1" src="images/foto1.png" onclick="openImg(this.src)" alt="foto2">
+           </div>
+           <div class="galeria-3">
+            <img class="fila1" src="images/foto3.png" onclick="openImg(this.src)"alt="foto3">
+               </div>   
+           </div>
+<!--redes sociales-->
+         <div class="container">
+        
+            <div class="columnas text-center">
+                <a class="text-center" href="https://x.com/Lizchess08?t=tIAC9BQggtLw9GwgqFv1Kg&s=09" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </div>
+
+            <div class="columnas text-center">
+                <a class="text-center" href="https://www.youtube.com/channel/UCNSHjzJihAr1QuJiI94i9RA" target="_blank">
+                <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+                
+         </div> 
+           
+
+        <div class="derechos">
+          <p>
+            Todos los derechos reservados 2024
+          </p>
+
+        </div>
+        <script src="js/main.js"></script>
+
+    </body>
+
+</html>
